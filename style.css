@@ -1,0 +1,712 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+    
+    /* css for section1 */
+}
+.section1{
+    width: 100vw;
+    height: 110vh;
+}
+.section1 img{
+    width: 100vw;
+    height: 110vh;
+    object-fit: cover;
+}
+.box{
+    background-color: black;
+    opacity: .54;
+    width: 100vw;
+    height: 110vh;
+    position: absolute;
+    top: 0px;
+}
+.navbar{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 200px;
+    height: 50px;
+    /* position: absolute; */
+    /* left: 40px; */
+    /* top: 40px; */
+    
+
+}
+.right-nav select{
+    outline: none;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button-right-nav{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-section-section1{
+    width: 100vw;
+    height: 45%;
+    position: absolute;
+    top: 55vh;
+    color: white;
+    text-align: center;
+}
+
+.heading1-section1{
+    font-size: 3.5rem;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.heading2-section1{
+    font-size: 1.rem;
+    font-family:sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+.heading3-section1{
+    font-size: 1.rem;
+    font-family:sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+
+#email{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.46);
+    border: 1px solid red;
+    outline: none;
+}
+
+.email-sign-in{
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.input-section-section1{
+    margin-top: 30px;
+}
+
+
+/* media queries for secton1 */
+@media(max-width:920px){
+    .heading1-section1{
+        font-size:2.5rem ;
+    }
+
+}
+@media(max-width:630px){
+    .heading1-section1{
+        font-size: 1.5rem;
+    }
+    .heading3-section1{
+        font-size: 1rem;
+    }
+    #email{
+        width: 40%;
+    }
+    .email-sign-in{
+        width: 30%;
+    }
+    .navbar img{
+        width: 120px;
+        height: 30px;
+    }
+    .right-nav select{
+        width:100px;
+    }
+    .button-right-nav{
+        width: 80px;
+    }
+
+}
+
+
+hr{
+    width: 100%;
+    height: 15px;
+    background-color: grey;
+}
+
+/* css for section2 */
+
+.section2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #090202;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.first-half{
+    width: 50%;
+    
+    
+}
+.first-half h1,h2{
+    margin-left: 30px;
+}
+
+.second-half{
+    width: 50%;
+
+    
+}
+.second-half video{
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+
+}
+.box-section2{
+    
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: auto;
+    /* text-align: center; */
+    /* padding: 30px 30px; */
+
+}
+.heading1-section2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading2-section2{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading3-section2{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* media for section2 */
+@media(max-width:1000px){
+    .box-section2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .section1{
+        height: 110%;
+    }
+    .first-half{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .second-half{
+        width: 100%;
+        height: 50%;
+        padding-bottom: 50px;
+        padding-left: 10%;
+
+
+    }
+    .second-half video{
+        width: 80%;
+    }
+
+}
+
+ /* css for section3 */
+
+
+.section3{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    background-color: #090202;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.box-section3{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.first-half2{
+    width: 50%;
+    margin-left: 50px;
+    
+    
+}
+
+.second-half2{
+    width: 50%;
+    
+    
+    
+
+    
+}
+.second-half2 video{
+    width: 100%;
+    height: 100%;
+
+}
+.box-section2{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+.heading1-section3{
+    width: 100%;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading2-section3{
+    margin-top: 25px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%
+}
+.heading3-section3{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* media queries for section3 */
+@media(max-width:1000px){
+    .box-section3{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    .heading1-section3{
+        font-size: 3rem;
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .heading2-section3{
+        font-size: 25px;
+        width: 100%;
+        margin-left: 0px;
+        
+        margin-right: 20px;
+    }
+    
+    .first-half2{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .second-half2{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+    }
+    .second-half2 video{
+        width: 80%;
+        height: 100%;
+        
+    }
+    .heading-section3{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+ /* css for section4 */
+.section4{
+    width: 100vw;
+    height: 100vh;
+    background-color: #090202;
+    color: white;
+}
+.box-section4{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    padding: 20% 20%;
+    
+    
+}
+.first-half3{
+    width: 50%;
+    height: 100%;
+}
+.second-half3{
+    width: 90%;
+    height: 100%;
+    margin-bottom: 40%;
+    
+}
+.second-half3 video{
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+
+
+
+    .heading1-section4{
+        font-size: 36px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heading2-section4{
+        
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heading3-section4{
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .ad-section{
+        width: 100vw;
+        height: 70vh;
+    }
+    .video{
+        background-color: black;
+        width: 100vw;
+        height: 100%;
+    }
+    .video video{
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+      /* css for section5 */
+    .section5{
+        width: 100vw;
+        height: 90vh;
+        background-color: #090202;
+        color: white;
+    }
+    .section5 h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        
+    }
+
+    /* here we are writing css for the questions and answer in section 5 */
+
+    .question1{
+        
+        width: 80%;
+        margin: auto;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color:rgba(10, 8, 8, 0.677);
+        overflow: hidden;
+        margin-top: 25px;
+        
+        
+        
+
+        
+    }
+    .responsive-question1{
+        height: 150px;
+    }
+    .responsive-answer1{
+        height: 150px;
+    }
+    .question{
+        width: 100%;
+        margin: auto;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items:center;
+        background-color:rgba(30, 28, 28, 0.186);
+        font-size: 28px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    
+
+        
+    }
+    #icon{
+        height: 70%;
+        
+    }
+    .answer{
+        width: 100%;
+        height: 100%;
+    }
+
+
+     
+    .question2{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color:rgba(30, 28, 28, 0.186);
+        overflow: hidden;
+        margin-top: 25px;
+    }
+    
+    .answer2{
+        width: 100%;
+        height: 100%;
+    }
+    .responsive-answer2{
+        height: 150px;
+    }
+    .responsive-question2{
+        height: 150px;
+    }
+
+
+
+
+
+
+    .question3{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color:rgba(30, 28, 28, 0.186);
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .answer3{
+        width: 100%;
+        height: 100%;
+    }
+    .responsive-answer3{
+        height: 150px;
+    }
+    .responsive-question3{
+        height: 150px;
+    }
+
+
+    @media(max-width:650px){
+        .question{
+            font-size: 17px;
+        }
+        .answer{
+            font-size: 13px;
+        }
+        .answer2{
+            font-size: 13px;
+        }
+        .answer3{
+            font-size: 13px;
+        }
+    }
+
+
+     .email-section{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        margin-top: 100px;
+     }
+     .email-section p{
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 400;
+     }
+     
+     #email-section5{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #17151575;
+        outline: none;
+        color: white;
+        font-size: 15px;
+        border: none;
+     }
+     .section5-button{
+        width: 150px;
+        height: 50px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        border: none;
+     }
+     .section5-input{
+        margin-top:20px;
+     }
+
+     @media(max-width:590px){
+        #email-section5{
+            width: 50%;
+        }
+        .section5-button{
+            width: 40%;
+            font-size: 10px;
+        }
+        .section5{
+            height:130vh;
+        }
+        .answer{
+            font-size: 10px;
+        }
+        .answer2{
+            font-size: 10px;
+        }
+        .answer{
+            font-size: 10px;
+        }
+     }
+
+
+     /* css for the footer */
+     footer{
+        width: 100vw;
+        display: flex;
+        height: 50vh;
+        background-color: #090202;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        
+        align-items: center;
+     }
+
+     .link1,.link2,.link3,.link4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        
+     }
+     .link1 a,.link2 a,.link3 a,.link4 a{
+        margin-top: 15px;
+        color: white;
+        font-size: 19px;
+     }
+     .link1 p{
+        margin-top: 30px;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+
+
+     @media(max-width:860px){
+        footer{
+            height: 70vh;
+        }
+        .link1 a,.link2 a,.link3 a,.link4 a{
+            margin-top: 15px;
+            color: white;
+            font-size: 13px;
+         }
+         .link1{
+            margin-left: 30px;
+         }
+         .link1,.link2,.link3,.link4{
+            display: flex;
+            flex-direction: column;
+            margin-left: 7%;
+            
+         }
+
+     }
+
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+
